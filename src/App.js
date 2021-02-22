@@ -1,41 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Message />
-    </div>
-  );
+    return (
+        <div className={'app-wrapper'}>
+            <Header/>
+            <Navbar/>
+            <Profile/>
+        </div>
+    );
 }
-
-const Header = () => {
-  return (
-    <div>
-      <div className="App">
-        <ul>
-          <li>Kek</li>
-        </ul>
-      </div>
-      <div></div>
-    </div>
-  );
-}
-
-
-const Message = () => {
-  return (
-    <div>
-      <div>
-        <ul>
-          <li>Kek</li>
-        </ul>
-      </div>
-      <div></div>
-    </div>
-  );
-}
-
 
 export default App;
