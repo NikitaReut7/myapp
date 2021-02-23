@@ -7,6 +7,6 @@
     color: white;
 }
 
-.item .active{
-    color: aquamarine;
+.item.active{
+    color: chocolate;
 }

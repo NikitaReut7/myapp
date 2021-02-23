@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f41cb71-3121-4b59-a38f-7ce5215f608e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +38,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/MyPosts/Post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Profile\MyPosts\Post" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Profile" />
+      <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Navbar" />
+      <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,6 +66,8 @@
       <workItem from="1613970818341" duration="7645000" />
       <workItem from="1614073259757" duration="32000" />
       <workItem from="1614073293184" duration="417000" />
+      <workItem from="1614100458230" duration="10000" />
+      <workItem from="1614100469376" duration="2314000" />
     </task>
     <servers />
   </component>
@@ -73,5 +84,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
