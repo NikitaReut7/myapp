@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f41cb71-3121-4b59-a38f-7ce5215f608e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,7 @@
       <workItem from="1614196170742" duration="732000" />
       <workItem from="1614230325236" duration="1193000" />
       <workItem from="1614270269335" duration="3764000" />
+      <workItem from="1614316701221" duration="4732000" />
     </task>
     <servers />
   </component>
