@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f41cb71-3121-4b59-a38f-7ce5215f608e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +45,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Reut-ND\AppData\Local\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src" />
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Profile\MyPosts" />
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Dialogs\Message" />
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Dialogs\Dialog" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components\News" />
-      <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components\Setting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Profile\MyPosts" />
@@ -62,6 +65,11 @@
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Navbar" />
       <recent name="C:\Users\Sikorsky-NS\Documents\GitHub\myapp\src\components\Header" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,6 +95,20 @@
       <workItem from="1614316701221" duration="4732000" />
       <workItem from="1616073291903" duration="2671000" />
       <workItem from="1616131434895" duration="2152000" />
+      <workItem from="1617002765926" duration="81000" />
+      <workItem from="1617002994475" duration="8000" />
+      <workItem from="1617866482576" duration="664000" />
+      <workItem from="1617878640458" duration="1077000" />
+      <workItem from="1617881329802" duration="1704000" />
+      <workItem from="1617883138755" duration="1005000" />
+      <workItem from="1617888282459" duration="1528000" />
+      <workItem from="1617948000281" duration="1477000" />
+      <workItem from="1617949726635" duration="823000" />
+      <workItem from="1617951536331" duration="1458000" />
+      <workItem from="1617953363768" duration="1594000" />
+      <workItem from="1617956791961" duration="825000" />
+      <workItem from="1617973354133" duration="1782000" />
+      <workItem from="1617975162139" duration="1502000" />
     </task>
     <servers />
   </component>

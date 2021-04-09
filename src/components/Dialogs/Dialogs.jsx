@@ -3,6 +3,7 @@ import classes from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
+
 const Dialogs = (props) => {
 
 
@@ -12,7 +13,16 @@ const Dialogs = (props) => {
     let messagesElements = props.dialogsPage.messages
         .map(m => <Message message={m.message} id={m.id}/>);
 
+    let message = React.createRef();
 
+    let sendMessage = () => {
+        let newMessage = message.current.value;
+        props.sendMessage(newMessage);
+    }
+
+    let updateMessage = () => {
+
+    }
     return (
         <div className={classes.dialogs}>
             <div className={classes.dialogItems}>
@@ -28,6 +38,14 @@ const Dialogs = (props) => {
                 <Message message={messageData[1].message}/>
                 <Message message={messageData[2].message}/>
                 <Message message={messageData[3].message}/>*/}
+            </div>
+            <div className={classes.sendMessage}>
+                <div >
+                    <textarea ref={message} onChange={updateMessage}/>
+                </div>
+                <div>
+                    <button onClick={sendMessage}>Send message</button>
+                </div>
             </div>
         </div>
     );
