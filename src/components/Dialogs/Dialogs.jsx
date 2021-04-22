@@ -2,6 +2,7 @@ import React from "react";
 import classes from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import {sendMessageActionCreator, updateMessageActionCreator} from "../../redux/state";
 
 
 const Dialogs = (props) => {
@@ -16,32 +17,24 @@ const Dialogs = (props) => {
     let newMessage = React.createRef();
 
     let sendMessage = () => {
-        props.sendMessage();
+        props.dispatch(sendMessageActionCreator());
     }
 
     let updateMessage = () => {
         let text = newMessage.current.value;
-        props.updateMessage(text);
+        props.dispatch(updateMessageActionCreator(text));
     }
     return (
         <div className={classes.dialogs}>
             <div className={classes.dialogItems}>
-              {/*  <DialogItem name={dialogData[0].name} id={dialogData[0].id}/>
-                <DialogItem name={dialogData[1].name} id={dialogData[1].id}/>
-                <DialogItem name={dialogData[2].name} id={dialogData[2].id}/>
-                <DialogItem name={dialogData[3].name} id={dialogData[3].id}/>*/}
                 {dialogsElements}
             </div>
             <div className={classes.messages}>
                 {messagesElements}
-{/*                <Message message={messageData[0].message}/>
-                <Message message={messageData[1].message}/>
-                <Message message={messageData[2].message}/>
-                <Message message={messageData[3].message}/>*/}
             </div>
             <div className={classes.sendMessage}>
                 <div >
-                    <textarea ref={newMessage} onChange={updateMessage} value={props.newMessage}/>
+                    <textarea ref={newMessage} onChange={updateMessage} value={props.dialogsPage.newMessage}/>
                 </div>
                 <div>
                     <button onClick={sendMessage}>Send message</button>
