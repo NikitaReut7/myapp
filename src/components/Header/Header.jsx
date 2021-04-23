@@ -1,10 +1,11 @@
 import React from "react";
 import classes from './Header.module.css';
+import logo from './logo.png'
 
 const Header = () => {
     return (
         <header className={classes.header}>
-            <img src={'https://ggscore.com/media/logo/t57455.png?93'} />
+            <img src={logo} alt={'logo'}/>
         </header>
     );
 }

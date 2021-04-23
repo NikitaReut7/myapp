@@ -1,8 +1,16 @@
 .header{
     grid-area: header;
-    background-color:greenyellow;
+    background:#5682a3;
 }
 
 .header img{
-    width: 20px;
+    width: 140px;
+    vertical-align:middle;
+    margin:0px 10px;
+}
+.header:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }

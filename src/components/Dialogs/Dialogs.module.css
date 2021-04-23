@@ -1,7 +1,15 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+    padding: 15px;
 
+}
+
+.dialogItems a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 .dialogItems.dialog {
@@ -13,9 +21,9 @@
 }
 
 .messages {
-
+  font-size: 18px;
 }
 
 .sendMessage{
-    margin:15px 5px;
+    margin-top:10px;
 }

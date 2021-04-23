@@ -1,3 +1,21 @@
 .descriptionBlock {
     padding: 10px;
 }
+
+.userPhoto{
+}
+
+.userPhoto img{
+    width: 200px;
+}
+
+.userInfo{
+    margin-left: 10px;
+    width: 200px;
+    background: #d2dbe3;
+}
+
+.userInfo p{
+    font-size: 12px;
+    font-weight: lighter;
+}
