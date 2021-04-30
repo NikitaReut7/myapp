@@ -1,27 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
-import Dialogs from "./components/Dialogs/Dialogs";
 import Music from "./components/Music/Music";
-import News from "./components/News/News";
 import Setting from "./components/Setting/Setting";
 import {BrowserRouter, Route} from "react-router-dom";
+import DialogsContainer from "./components/Dialogs/DialogsContainer";
+import UsersContainer from "./components/Users/UsersContainer";
+import NewsContainer from "./components/News/NewsContainer";
+import MusicContainer from "./components/Music/MusicContainer";
 
-const App = (props) => {
+const App = () => {
     return (
             <div className={'app-wrapper'}>
                 <Header/>
                 <Navbar/>
                 <div className={'app-wrapper-content'}>
-                    <Route path={'/profile'} render={ () => <Profile profilePage = {props.state.profilePage}
-                                                                     dispatch = {props.dispatch}
-                                                                     />}/>
-                    <Route path={'/dialogs'} render={ () => <Dialogs store = {props.store}
-                                                                     />}/>
-                    <Route path={'/music'} component={Music}/>
-                    <Route path={'/news'} component={News}/>
+                    <Route path={'/users'} render={ () => <UsersContainer/> }/>
+                    <Route path={'/profile'} render={ () => <Profile/> }/>
+                    <Route path={'/dialogs'} render={ () => <DialogsContainer/> }/>
+                    <Route path={'/music'} render={ () => <MusicContainer/> }/>
+                    <Route path={'/news'} render={ () => <NewsContainer/>}/>
                     <Route path={'/setting'} component={Setting}/>
                 </div>
             </div>

@@ -1,0 +1,22 @@
+.musicContainer
+{
+    margin: 20px;
+}
+
+.song{
+    margin-bottom: 15px;
+}
+.songInfo{
+    display: inline;
+}
+
+.songInfo span{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Calibri;
+    color:cornflowerblue;
+}
+
+.removeSong{
+    float: right;
+}

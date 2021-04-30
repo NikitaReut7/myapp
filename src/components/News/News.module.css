@@ -1,0 +1,27 @@
+.newsContainer{
+    margin: 20px;
+}
+
+.news{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.newsImg{
+    width: 90px;
+}
+
+.title{
+    font-family: Calibri;
+}
+
+.body{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Calibri;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
