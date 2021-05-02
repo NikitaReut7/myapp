@@ -1,6 +1,7 @@
 import React from "react";
 import classes from './Users.module.css';
 import * as axios from "axios";
+import userPhoto from '../../assets/image/user.png'
 
 let Users = (props) => {
 
@@ -22,7 +23,7 @@ let Users = (props) => {
                     <div>
                         <img className={classes.userPhoto} src={u.photos.small != null
                                                                     ? u.photos.small
-                                                                    : "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359554__340.png"
+                                                                    : userPhoto
                         }/>
                     </div>
                     <div>
