@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Reut-ND\AppData\Local\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -46,8 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\redux" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components\Users" />
+      <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\redux" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components\Dialogs" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src\components\Profile\MyPosts" />
       <recent name="C:\Users\Reut-ND\Documents\GitHub\myapp\src" />
@@ -124,6 +124,21 @@
       <workItem from="1619787170704" duration="24000" />
       <workItem from="1619787250586" duration="81000" />
       <workItem from="1619787490238" duration="1118000" />
+      <workItem from="1620116473918" duration="2000" />
+      <workItem from="1621489111307" duration="19000" />
+      <workItem from="1621489162814" duration="2395000" />
+      <workItem from="1621842695733" duration="1764000" />
+      <workItem from="1621849986425" duration="604000" />
+      <workItem from="1621862975023" duration="651000" />
+      <workItem from="1623653258458" duration="14000" />
+      <workItem from="1623653307407" duration="12000" />
+      <workItem from="1623653332284" duration="62000" />
+      <workItem from="1623655104127" duration="4000" />
+      <workItem from="1623655117892" duration="2000" />
+      <workItem from="1623655180648" duration="42000" />
+      <workItem from="1624271198491" duration="732000" />
+      <workItem from="1624276614493" duration="3000" />
+      <workItem from="1632403971575" duration="187000" />
     </task>
     <servers />
   </component>
